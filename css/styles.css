@@ -113,6 +113,39 @@ main {
     margin-bottom: 1%;
 }
 /*termina la seccion de la pagina Inicio*/
+
+/*seccion de la pagina Historia*/
+.historiaSection1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border-bottom: #CCC8AA double;
+}
+.historiaSection1 h2{
+    border-bottom: #CCC8AA double;
+}
+.historiaSection1 p {
+    text-align: justify;
+    padding-top: 2%;
+}
+.historiaSection2{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-bottom: #CCC8AA double;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1% 2% 1% 2%;
+}
+.historiaSection2 div p{
+    text-align: justify;
+    padding: 4%;
+    
+    
+}
 h2,h3 {
     font-family: "space grotesk", sans-serif;
     color:  #F1EFEF;
