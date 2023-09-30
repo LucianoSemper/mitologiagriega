@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#191717;
+    color: #f8ebcc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 5% 2% 5%;
+}
+nav{
+    width: 50%;
+    font-family: "space grotesk", sans-serif;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+nav ul li a{
+    color: #F1EFEF;
+}
+h1{
+    color:#F1EFEF;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 10px;
+}
+
+main {
+    background-color:#7D7C7C;
+}
+/*pagina de Inicio*/
+
+/*seccion sobre la pagina*/
+.sectionInicioPagina{
+    display: flex;
+    flex-flow: column nowrap;
+    margin:0% 5% 1% 5%;
+}
+.sectionInicioPagina div {
+    text-align: justify;
+    padding: 0% 1% 1% 1%;
+}
+/*seccion que es la mitologia*/
+.sectionMitologia{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    border-top:#CCC8AA double;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+.sectionMitologia div p{
+    text-align: justify;
+    padding: 4%;
+}
+.sectionMitologia2{
+    display: flex;
+    flex-flow:row-reverse nowrap;
+    align-items: center;
+    border-top: #CCC8AA double;
+    margin-left: 2%;/*margin aplica para los bordes*/
+    margin-right: 2%;
+    padding: 2%;
+}
+.sectionMitologia2 p {
+    text-align: justify;
+    padding: 4%;
+}
+.sectionMitologia2 div ul{
+    flex-flow: row wrap;
+    color: #F1EFEF;
+    margin-bottom: 6%;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: justify;
+}
+.sectionMitologia3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-top:#CCC8AA double;
+    border-bottom:#CCC8AA double;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+.sectionMitologia3 div p {
+    text-align: center;
+    padding: 4%;
+}
+.sectionMitologia4 {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2%;
+}
+.sectionMitologia4 div{
+    text-align: justify;
+    margin: 2%;
+}
+.sectionMitologia4 div h3{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+/*termina la seccion de la pagina Inicio*/
+h2,h3 {
+    font-family: "space grotesk", sans-serif;
+    color:  #F1EFEF;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    color:#CCC8AA;
+    font-family: "space grotesk", sans-serif;
+    font-size: 20px;
+}
+
+section article img /*imagenes fuera de inicio*/ {
+    position: relative;
+    left: 30%;
+    padding: 15px;
+    margin: 10px;
+    object-fit: contain;
+    height: 705px;
+    width: 564px;
+
+}
+
+section article a /*links de la pagina de productos*/ {
+    color:#F1EFEF ;
+    font-family: "space grotesk", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.iframePosition {
+    width: 900px;
+    height: 400px;
+    padding: 3% 25% 3% 25%;
+}
+
+footer ul {
+    background-color: #191717;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    padding-top: 15px;
+}
+#icono/*icono para voler arriba anda medio mal*/{
+    color: #F1EFEF;
+    height: 80px;
+    width: 60px;
+}
+footer ul li a {
+    color:#F1EFEF;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
