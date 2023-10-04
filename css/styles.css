@@ -36,20 +36,20 @@ h1{
 }
 
 main {
-    background-color:#7D7C7C;
+    background-color:#7d7d7d;
 }
 /*pagina de Inicio*/
 
 /*seccion sobre la pagina*/
 .sectionInicioPagina{
-    display: flex;
-    flex-flow: column nowrap;
-    margin:0% 5% 1% 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .sectionInicioPagina div {
-    text-align: justify;
-    padding: 0% 1% 1% 1%;
-}
+    text-align: center;
+    padding: 2%;
+} 
+
 /*seccion que es la mitologia*/
 .sectionMitologia{
     display: flex;
@@ -61,184 +61,66 @@ main {
     padding: 2%;
 }
 .sectionMitologia div p{
-    text-align: justify;
-    padding: 4%;
+    text-align: center;
+    margin: 2%;
 }
-.sectionMitologia2{
-    display: flex;
-    flex-flow:row-reverse nowrap;
-    align-items: center;
-    border-top: #CCC8AA double;
-    margin-left: 2%;/*margin aplica para los bordes*/
-    margin-right: 2%;
-    padding: 2%;
-}
-.sectionMitologia2 p {
-    text-align: justify;
-    padding: 4%;
-}
-.sectionMitologia2 div ul{
+.sectionMitologia div ul{
     flex-flow: row wrap;
     color: #F1EFEF;
     justify-content: space-evenly;
     font-size: 20px;
-    text-align: justify;
-}
-.sectionMitologia3{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    border-top:#CCC8AA double;
-    border-bottom:#CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-}
-.sectionMitologia3 div p {
-    text-align: justify;
-    padding: 4%;
-}
-.sectionMitologia4 {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-}
-.sectionMitologia4 div{
-    text-align: justify;
-    padding: 2%;
-}
+} 
 /*termina la seccion de la pagina Inicio*/
 
 /*seccion de la pagina Historia*/
-.historiaSection1{
+
+.historiaSection{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
     margin-left: 2%;
     margin-right: 2%;
     padding: 2%;
     border-bottom: #CCC8AA double;
 }
-.historiaSection1 h2{
-    border-bottom: #CCC8AA double;
+.historiaSection p {
+    text-align: center;
+    padding: 1% 2% 1% 2%
 }
-.historiaSection1 p {
-    text-align: justify;
-    padding-top: 2%;
+#urano{
+    flex-flow: row wrap;
+    justify-content: center;
 }
-.historiaSection2{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection2 div p{
-    text-align: justify;
-    padding: 4%;
-}
-.historiaSection3 {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection3 p{
-    text-align: justify;
-    padding: 4%;
-}
-.historiaSection4{
+.historiaSection3img{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     border-bottom: #CCC8AA double;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 1% 2% 1% 2%;
+    padding:2%;
 }
-
-.historiaSection4 div p{
-    text-align: justify;
+.historiaSection3img div p{
+    text-align: center;
     padding-bottom: 2%;
 }
-.historiaSection5{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection5 div p{
-    text-align: justify;
-    padding-bottom: 2%;
-}
-.historiaSection6{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection6 div p{
-    text-align: justify;
-    padding-bottom: 2%;
-}
-.historiaSection7{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-    border-bottom: #CCC8AA double;
-    
+#hijosZeus{
+    flex-wrap: wrap;
 }
 .listaHijosZeus{
     display: flex;
     flex-flow: column nowrap;
-    color: #F1EFEF;
+    color:#F1EFEF;
     align-items: center;
     font-size: 20px;
+    text-align: center;
 }
 .listaHijosZeus li{
-    margin:1%;
+    margin:5px;
     padding-left: 1%;
     list-style-type:lower-greek;
 }
-.historiaSection8 {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection8 div p{
-    padding: 4%;
-    text-align: justify;
-}
-.historiaSection9{
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    align-items: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-}
-.historiaSection9 div p{
-    padding: 4%;
-    text-align: justify;
-}
+
 .historiaSection10{
     display: grid;
     grid-template-columns:repeat(2 , 50%);
@@ -246,16 +128,14 @@ main {
     row-gap: 30px;
     align-items: center;
     justify-items: center;
+    text-align: center;
     border-bottom: #CCC8AA double;
     margin-left: 2%;
     margin-right: 2%;
     padding: 1% 2% 1% 2%;
 }
-.historiaSection11{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
-    border-bottom: #CCC8AA double;
+#Hercules{
+    flex-wrap: wrap;
 }
 .los12trabajos{
     display: flex;
@@ -268,13 +148,22 @@ main {
     margin: 1%;
     text-align: center;
 }
+#odisea{
+    flex-flow: column nowrap;
+    border-bottom: transparent;
+}
+.historiaSection div a{
+    font-size: 30px;
+    text-align: center;
+    color: #F1EFEF;
+}
 h2{
     font-family: "space grotesk", sans-serif;
     color:  #F1EFEF;
     font-size: 30px;
     font-style: italic;
     text-align: center;
-    margin: 2%;
+    padding: 1%;
 }
 h3{
     font-family:"space grotesk", sans-serif;
