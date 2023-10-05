@@ -138,8 +138,8 @@ main {
     padding: 1% 2% 1% 2%;
     border-bottom: #CCC8AA double;
 }
-#Hercules{
-    flex-wrap: wrap;
+#hercules{
+    border-bottom: transparent;
 }
 .los12trabajos{
     display: flex;
@@ -155,12 +155,14 @@ main {
 #odisea{
     flex-flow: column wrap;
     border-bottom: transparent;
-    
 }
+
 .historiaSection div a:hover {
     color:#F2E7D5;
     font-size: 45px;
     font-style: italic;
+    background-color: #191717;
+    border: #CCC8AA 2px outset;
 }
 
 .historiaSection div a{
@@ -238,6 +240,8 @@ main {
  .carouselMedia a:hover{
     font-size: 45px;
     color: #CCC8AA;
+    background-color: #191717;
+    border: #CCC8AA 2px outset
  }
 .tituloGames{
     font-size: 35px;
@@ -251,7 +255,7 @@ main {
 .gridProductos{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(3 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
     align-items: center;
     justify-items: center;
     row-gap: 30px;
@@ -264,7 +268,7 @@ main {
 .gridProductos a:hover{
     font-size: 45px;
     background-color: #191717;
-    border: #CCC8AA 2px inset;
+    border: #CCC8AA 2px outset;
 }
 a:any-link{
   text-decoration-color:transparent;
@@ -289,6 +293,7 @@ p {
     color:#CCC8AA;
     font-family: "space grotesk", sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 footer ul {
     background-color: #191717;
