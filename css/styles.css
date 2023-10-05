@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
 }
+/* no pude hacer lo de media queries */
+/* @media(max-width:900px) {
+    p{color: aqua;}
+}
+@media(max-width:800px){
+    main{background-color: #CCC8AA;}
 
+} */
 header {
     background-color:#191717;
     color: #f8ebcc;
@@ -204,6 +211,11 @@ main {
     border: #CCC8AA inset 5px;
 }
 /* empieza pagina de galeria */
+#carouselGaleriaDioses{
+    border-bottom: #CCC8AA double 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 #carouselGaleriaDioses div img {
     width: 600px;
     height: 700px;
@@ -212,9 +224,22 @@ main {
 #carouselGaleriaDioses h2{
     font-size: 40px;
 }
+#carouselGaleriaDioses p:hover{
+    font-size: 35px;
+}
 .carousel-item p{
     text-align: center;
     padding: 1%;
+    background-color: #191717;
+    border: #CCC8AA 4px outset;
+}
+#carouselGaleriaHeroes{
+    border-bottom: #CCC8AA double 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#carouselGaleriaHeroes p:hover{
+    font-size: 35px;
 }
 #carouselGaleriaHeroes div img{
     width:400px ;
