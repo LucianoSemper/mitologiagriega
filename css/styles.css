@@ -121,18 +121,22 @@ main {
     list-style-type:lower-greek;
 }
 
-.historiaSection10{
+.historiaSectionGrid{
     display: grid;
     grid-template-columns:repeat(2 , 50%);
     grid-template-rows:repeat(3 , 33,3%) ;
     row-gap: 30px;
     align-items: center;
     justify-items: center;
-    text-align: center;
     border-bottom: #CCC8AA double;
     margin-left: 2%;
     margin-right: 2%;
     padding: 1% 2% 1% 2%;
+}
+.historiaSectionGrid p {
+    text-align: center;
+    padding: 1% 2% 1% 2%;
+    border-bottom: #CCC8AA double;
 }
 #Hercules{
     flex-wrap: wrap;
@@ -149,13 +153,21 @@ main {
     text-align: center;
 }
 #odisea{
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     border-bottom: transparent;
+    
 }
+.historiaSection div a:hover {
+    color:#F2E7D5;
+    font-size: 45px;
+    font-style: italic;
+}
+
 .historiaSection div a{
     font-size: 30px;
     text-align: center;
     color: #F1EFEF;
+    
 }
 h2{
     font-family: "space grotesk", sans-serif;
@@ -176,9 +188,8 @@ h3{
 p {
     color:#CCC8AA;
     font-family: "space grotesk", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
-
 section article img /*imagenes fuera de inicio*/ {
     position: relative;
     left: 30%;
