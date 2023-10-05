@@ -167,7 +167,24 @@ main {
     font-size: 30px;
     text-align: center;
     color: #F1EFEF;
-    
+}
+/* empieza pagina de galeria */
+#carouselGaleriaDioses div img {
+    width: 600px;
+    height: 700px;
+    object-fit: contain;
+}
+#carouselGaleriaDioses h2{
+    font-size: 40px;
+}
+.carousel-item p{
+    text-align: center;
+    padding: 1%;
+}
+#carouselGaleriaHeroes div img{
+    width:400px ;
+    height:600px ;
+    object-fit: contain;
 }
 h2{
     font-family: "space grotesk", sans-serif;
@@ -190,17 +207,6 @@ p {
     font-family: "space grotesk", sans-serif;
     font-size: 25px;
 }
-section article img /*imagenes fuera de inicio*/ {
-    position: relative;
-    left: 30%;
-    padding: 15px;
-    margin: 10px;
-    object-fit: contain;
-    height: 705px;
-    width: 564px;
-
-}
-
 section article a /*links de la pagina de productos*/ {
     color:#F1EFEF ;
     font-family: "space grotesk", sans-serif;
