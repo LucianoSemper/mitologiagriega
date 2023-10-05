@@ -168,6 +168,39 @@ main {
     text-align: center;
     color: #F1EFEF;
 }
+/* menu desplegable en la illiada */
+.btn{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+    margin-bottom: 4%;
+}
+.btn:hover{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+    font-size: 30px;
+    margin-bottom: 4%;
+} 
+.btn:active{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+.btn:focus{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+    font-size: 30px;
+    margin-bottom: 4%;
+} 
+.btn:focus-within{
+    color: #F1EFEF;
+    background-color:#CCC8AA ;
+    border: #CCC8AA inset 5px;
+}
 /* empieza pagina de galeria */
 #carouselGaleriaDioses div img {
     width: 600px;
@@ -185,6 +218,56 @@ main {
     width:400px ;
     height:600px ;
     object-fit: contain;
+}
+/*empieza la pagina de media*/
+.carouselMedia{
+    border-bottom: #CCC8AA double;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+ .carouselMedia iframe{
+    width: 1230px;
+    height: 615px;
+    padding-left: 2%;
+    padding-right: 2%;
+ }
+ .carouselMedia a{
+    font-size: 25px;
+    color: #F2E7D5;
+ }
+ .carouselMedia a:hover{
+    font-size: 45px;
+    color: #CCC8AA;
+ }
+.tituloGames{
+    font-size: 35px;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: #CCC8AA outset;
+    background-color: #191717;
+}
+/* empieza la seccion de productos */
+.gridProductos{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    padding: 1%;
+}
+.gridProductos a{
+    font-size: 25px;
+    color: #CCC8AA;
+}
+.gridProductos a:hover{
+    font-size: 45px;
+    background-color: #191717;
+    border: #CCC8AA 2px inset;
+}
+a:any-link{
+  text-decoration-color:transparent;
 }
 h2{
     font-family: "space grotesk", sans-serif;
@@ -207,19 +290,6 @@ p {
     font-family: "space grotesk", sans-serif;
     font-size: 25px;
 }
-section article a /*links de la pagina de productos*/ {
-    color:#F1EFEF ;
-    font-family: "space grotesk", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.iframePosition {
-    width: 900px;
-    height: 400px;
-    padding: 3% 25% 3% 25%;
-}
-
 footer ul {
     background-color: #191717;
     display: flex;
@@ -229,11 +299,6 @@ footer ul {
     align-items: center;
     height: 80px;
     padding-top: 15px;
-}
-#icono/*icono para voler arriba anda medio mal*/{
-    color: #F1EFEF;
-    height: 80px;
-    width: 60px;
 }
 footer ul li a {
     color:#F1EFEF;
