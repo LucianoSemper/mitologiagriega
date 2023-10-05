@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color:#191717;
+    background-color:#CCC8AA;
     color: #f8ebcc;
     display: flex;
     flex-direction: row;
@@ -26,17 +26,17 @@ ul{
     align-items: center;
 }
 nav ul li a{
-    color: #F1EFEF;
+    color: #000;
 }
 h1{
-    color:#F1EFEF;
+    color:#000;
     font-size: 40px;
     text-align:center;
     padding-top: 10px;
 }
 
 main {
-    background-color:#7d7d7d;
+    background-color:#000;
 }
 /*pagina de Inicio*/
 
