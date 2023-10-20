@@ -178,39 +178,7 @@ img{
     text-align: center;
     color: #F1EFEF;
 }
-/* menu desplegable en la illiada */
-.btn{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-    margin-bottom: 4%;
-}
-.btn:hover{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-    font-size: 30px;
-    margin-bottom: 4%;
-} 
-.btn:active{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-    font-size: 30px;
-    margin-bottom: 4%;
-}
-.btn:focus{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-    font-size: 30px;
-    margin-bottom: 4%;
-} 
-.btn:focus-within{
-    color: #F1EFEF;
-    background-color:#CCC8AA ;
-    border: #CCC8AA inset 5px;
-}
+
 /* empieza pagina de galeria */
 #carouselGaleriaDioses{
     border-bottom: #CCC8AA double 4px;
@@ -305,6 +273,40 @@ img{
     color: #CCC8AA;
     font-style: italic;
 }
+/* externas */
+.sectionExterna{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: #CCC8AA outset 2px;
+    padding: 2%;
+}
+/* menu desplegable*/
+.btn{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+}
+.btn:hover{
+    color: #191717;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+} 
+ .btn:active{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+} 
+.btn:focus{
+    color: #F1EFEF;
+    background-color: #CCC8AA;
+    border: #CCC8AA inset 5px;
+} 
+.btn:focus-within{
+    color: #F1EFEF;
+    background-color:#CCC8AA ;
+    border: #CCC8AA inset 5px;
+}
 a:any-link{
   text-decoration-color:transparent;
 }
@@ -326,7 +328,6 @@ h3{
 }
 p {
     color:#CCC8AA;
-    font-family: "space grotesk", sans-serif;
     font-size: 25px;
     text-align: center;
 }
