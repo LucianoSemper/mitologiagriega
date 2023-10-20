@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link rel="shortcut icon" href="../assets/img/tornillo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Mono&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
@@ -14,15 +19,32 @@
 <body>
     <header>
         <h1>Mitologia Griega</h1>
-        <nav>
-            <ul id="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./media.html">Media</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-
-            </ul>
+        <nav id="menu">
+            <nav class="navbar navbar-expand-lg  menu">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./media.html">Media</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
         </nav>
     </header>
 
@@ -32,7 +54,7 @@
                 <h2>Dioses</h2>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../assets/img/carrusel-dioses/zeus-king.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/zeus-dios-del-olimpo.jpg" class="d-block w-100"
                             alt="dios griego del rayo y padre del omlipo zeus">
                         <p>ZEUS Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, et. A placeat facere
                             reiciendis, quis iste optio vero dicta error ipsam minima quidem animi? Rerum delectus
@@ -40,7 +62,7 @@
                             natus nihil. Reiciendis.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/hades-under.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/hades-dios-del-inframundo.jpg" class="d-block w-100"
                             alt="dios griego del inframundo hades">
                         <p>HADES Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio, velit nisi
                             tenetur
@@ -49,7 +71,7 @@
                             ea nostrum ab atque impedit qui?</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/poseidon-wat.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/poseidon-dios-de-los-mares.jpg" class="d-block w-100"
                             alt="dios griego de los mares poseidon">
                         <p>POSEIDON Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio nobis
                             repellat
@@ -57,7 +79,7 @@
                             architecto eaque omnis ad officiis minima ratione.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/hera-queen.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/hera-diosa-del-olimpo.jpg" class="d-block w-100"
                             alt="diosa madre del olimpo hera">
                         <p>HERA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
                             voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
@@ -65,7 +87,7 @@
                             eligendi dolor doloremque, quaerat itaque.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/hermes-gad.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/hermes-dios-de-la-mensajeria.jpg" class="d-block w-100"
                             alt="dios griego de la mensajeria hermes">
                         <p>HERMES Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
                             voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
@@ -73,7 +95,7 @@
                             eligendi dolor doloremque, quaerat itaque.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/apollo.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/apollo-dios-del-sol-y-la-musica.jpg" class="d-block w-100"
                             alt="dios griego del sol apollo">
                         <p>APOLLO Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
                             voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
@@ -81,7 +103,7 @@
                             eligendi dolor doloremque, quaerat itaque.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/atenea.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/atenea-diosa-de-la-sabiduria.jpg" class="d-block w-100"
                             alt="diosa griega de la sabiduria atenea">
                         <p>ATENEA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
                             voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
@@ -89,7 +111,7 @@
                             eligendi dolor doloremque, quaerat itaque.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/afrodita.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/afrodita-diosa-de-la-belleza.jpg" class="d-block w-100"
                             alt="diosa griega del amor y la lujuria afrodita">
                         <p>AFRODITA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident,
                             nihil
@@ -98,9 +120,57 @@
                             eligendi dolor doloremque, quaerat itaque.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-dioses/ares.jpg" class="d-block w-100"
+                        <img src="../assets/img/carrusel-dioses/ares-dios-de-la-guerra.jpg" class="d-block w-100"
                             alt="dios griego de la guerra ares">
                         <p>ARES Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/artemisa-diosa-de-la-caza.jpg" class="d-block w-100"
+                            alt="diosa griega de la caza artemisa">
+                        <p>ARTEMISA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/demeter-diosa-de-la-agricultura.jpg" class="d-block w-100"
+                            alt="diosa griega de la agricultura demeter">
+                        <p>DEMETER Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/dionisio-dios-del-vino-y-la-diversion.jpg" class="d-block w-100"
+                            alt="dios griego del vino y la diversion dionisio">
+                        <p>DIONISIO Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/hestia-diosa-del-fuego-del-hogar.jpg" class="d-block w-100"
+                            alt="diosa griega del fuego del hogar hestia">
+                        <p>HESTIA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/temis-diosa-de-la-equidad.jpg" class="d-block w-100"
+                            alt="diosa griega de la equidad y la justicia temis">
+                        <p>TEMIS Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
+                            voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
+                            pariatur
+                            eligendi dolor doloremque, quaerat itaque.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/carrusel-dioses/hefesto-dios-de-la-forja.jpg" class="d-block w-100"
+                            alt="dios griego de la forja hefesto">
+                        <p>HEFESTO Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui placeat provident, nihil
                             voluptas recusandae ducimus quasi libero id alias commodi ipsum deleniti sit laborum
                             pariatur
                             eligendi dolor doloremque, quaerat itaque.</p>
@@ -128,20 +198,16 @@
                         <p>HERCULES Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste ea quibusdam exercitationem commodi praesentium aspernatur. Perferendis laboriosam harum ut et quod architecto doloribus voluptas veritatis dolorem, tenetur sunt nulla!</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-heroes/perseo.jpg" class="d-block w-100" alt="heroe griego perseo">
+                        <img src="../assets/img/carrusel-heroes/perseus.jpg" class="d-block w-100" alt="heroe griego perseo">
                         <p>PERSEO Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste ea quibusdam exercitationem commodi praesentium aspernatur. Perferendis laboriosam harum ut et quod architecto doloribus voluptas veritatis dolorem, tenetur sunt nulla!</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-heroes/teseo.jpg" class="d-block w-100" alt="heroe griego teseo ">
+                        <img src="../assets/img/carrusel-heroes/teseo-vs-minotauro.jpg" class="d-block w-100" alt="heroe griego teseo ">
                         <p>TESEO Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste ea quibusdam exercitationem commodi praesentium aspernatur. Perferendis laboriosam harum ut et quod architecto doloribus voluptas veritatis dolorem, tenetur sunt nulla!</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/carrusel-heroes/aquiles.jpg" class="d-block w-100" alt="heroe griego aquiles">
+                        <img src="../assets/img/carrusel-heroes/aquiles-vs-hector.jpg" class="d-block w-100" alt="heroe griego aquiles">
                         <p>AQUILES Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste ea quibusdam exercitationem commodi praesentium aspernatur. Perferendis laboriosam harum ut et quod architecto doloribus voluptas veritatis dolorem, tenetur sunt nulla!</p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/img/carrusel-heroes/hector.jpg" class="d-block w-100" alt="heroe griego hector">
-                        <p>HECTOR Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste ea quibusdam exercitationem commodi praesentium aspernatur. Perferendis laboriosam harum ut et quod architecto doloribus voluptas veritatis dolorem, tenetur sunt nulla!</p>
                     </div>
                     <div class="carousel-item">
                         <img src="../assets/img/carrusel-heroes/quiron.jpg" class="d-block w-100" alt="heroe griego quiron ">

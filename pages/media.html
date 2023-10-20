@@ -6,95 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/img/tornillo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Mono&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
         <h1>Mitologia Griega</h1>
-        <nav>
-            <ul id="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./media.html">Media</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-            </ul>
-        </nav>
+        <nav id="menu">
+          <nav class="navbar navbar-expand-lg  menu">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                </div>
+              </div>
+            </nav>
+      </nav>
     </header>
     <main>
-        <section class="carouselMedia">
-        <div id="carouselMediaGames" class="carousel slide">
-            <h2>Games</h2>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/A17oUv0E-N4?si=X7GvyCOytVRtEbda" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"class="d-block w-100" allowfullscreen></iframe>
-                <h2 class="tituloGames">Age of Mitologhy</h2>
-                <p><a href="https://store.steampowered.com/app/266840/Age_of_Mythology_Extended_Edition/">Age of
-                    Mytologhy - Steam</a></p>
-              </div>
-              <div class="carousel-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2p5AlQnoV2M?si=_waPFgNLrkwuwqrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"class="d-block w-100" allowfullscreen></iframe>
-                <h2 class="tituloGames">God of War 3</h2>
-                <p><a href="https://www.mercadolibre.com.ar/god-of-war-iii-remastered-standard-edition-scea-ps4-digital/p/MLA15264468?pdp_filters=category:MLA373840#searchVariation=MLA15264468&position=4&search_layout=stack&type=product&tracking_id=7a0fcacc-fe67-4aa2-8e3c-b6dfc3a74dda">God of War 3 - Mercado Libre</a></p>
-              </div>
-              <div class="carousel-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HGEM5wprTlE?si=nl5iCLZd_GG2VJm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="d-block w-100" allowfullscreen></iframe>
-                <h2 class="tituloGames">Gods & Heroes</h2>
-                <p><a href="https://steamcommunity.com/app/107000">Gods & Heroes - Steam</a></p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMediaGames" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselMediaGames" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </section>
-
-        <section class="carouselMedia">
-            <div id="carouselMediaMovies" class="carousel slide">
-                <h2>Movies</h2>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_dwKcW2vC58?si=UsJKf9yK1LopyOH3"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="d-block w-100"
-                        allowfullscreen></iframe>
-                    <h2 class="tituloGames">Furia de Titanes</h2>
-                    <p>
-                        <a href="https://play.hbomax.com/page/urn:hbo:page:GXrH2TQB_D62brQEAAADU:type:feature?source=googleHBOMAX&action=open">Furia de Titanes (2010) - HBO MAX</a>
-                    </p>
-                  </div>
-                  <div class="carousel-item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6FG3BfPuwBA?si=1k7hFeJdiyploMtq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="d-block w-100" allowfullscreen></iframe>
-                    <h2 class="tituloGames">Troya</h2>
-                    <p>
-                        <a href="https://play.hbomax.com/page/urn:hbo:page:GXuOsXgehxqUJwwEAAAPp:type:feature?source=googleHBOMAX&action=open">Troya(2004) - HBO MAX</a>
-                    </p>
-                  </div>
-                  <div class="carousel-item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bQyO7YOmj2o?si=tGFTr2cg7VZtwOkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="d-block w-100" allowfullscreen></iframe>
-                    <h2 class="tituloGames">La Leyenda de Hercules</h2>
-                    <p>
-                        <a href="https://play.hbomax.com/page/urn:hbo:page:GYF4g7gugBW6-wgEAAAK7:type:feature?source=googleHBOMAX&action=open">La Leyenda de Hercules (2014) - HBO MAX</a>
-                    </p>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMediaMovies" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselMediaMovies" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
+      <div>
+        <h2>Games</h2>
+      </div>
+      <section class="gridMedia">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/A17oUv0E-N4?si=YDhp334rorBlvQuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>Age of Mithology</h3>
+          <a href="https://store.steampowered.com/app/266840/Age_of_Mythology_Extended_Edition/">Link al juego</a>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2p5AlQnoV2M?si=zN71z6LMRSba9z8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>God of War 3</h3>
+          <a href="https://www.mercadolibre.com.ar/god-of-war-iii-remastered-standard-edition-scea-ps4-digital/p/MLA15264468?pdp_filters=category:MLA373840#searchVariation=MLA15264468&position=4&search_layout=stack&type=product&tracking_id=7a0fcacc-fe67-4aa2-8e3c-b6dfc3a74dda">Link al juego</a>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HGEM5wprTlE?si=zRezAfGUA8fIaRCu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>Gods & Heroes: Rome Rising</h3>
+          <a href="https://steamcommunity.com/app/107000">Link al juego</a>
+        </div>
+      </section>
+      <div>
+        <h2>Movies</h2>
+      </div>
+      <section class="gridMedia">
+        <div>
+          <h3>Troya(2004)</h3>
+          <a href="https://play.hbomax.com/page/urn:hbo:page:GXuOsXgehxqUJwwEAAAPp:type:feature?source=googleHBOMAX&action=open">Link a la pelicula</a>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6FG3BfPuwBA?si=xwJGFrqp7GNlN3N-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>Furia de Titanes(2010)</h3>
+          <a href="https://play.hbomax.com/page/urn:hbo:page:GXrH2TQB_D62brQEAAADU:type:feature">Link a la pelicula</a>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_dwKcW2vC58?si=dRQz5pPKMRJlnCkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>La Leyenda de Hercules(2014)</h3>
+          <a href="https://play.hbomax.com/page/urn:hbo:page:GYF4g7gugBW6-wgEAAAK7:type:feature">Link a la pelicula</a>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/h8SpE9Ea-KU?si=AHojiufu-l4JUDtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
     </main>
     <footer>
         <ul>

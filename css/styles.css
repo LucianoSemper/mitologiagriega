@@ -2,38 +2,26 @@
     margin: 0;
     padding: 0;
 }
-/* no pude hacer lo de media queries */
-/* @media(max-width:900px) {
-    p{color: aqua;}
+@media (max-width:600px){
+    header{
+        background-color: #CCC8AA;
+    }
+    
 }
-@media(max-width:800px){
-    main{background-color: #CCC8AA;}
-
-} */
-header {
-    background-color:#191717;
-    color: #f8ebcc;
+ header {
+    background-color: #191717;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 2% 5% 2% 5%;
-}
-nav{
-    width: 50%;
+    justify-content: space-around;
+    padding: 2%;
     font-family: "space grotesk", sans-serif;
-    font-size: 20px;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-nav ul li a{
+.menu ul li a {
     color: #F1EFEF;
+    font-size: 30px;
+}
+.menu ul li a:hover{
+    color: #CCC8AA;
 }
 h1{
     color:#F1EFEF;
@@ -67,6 +55,16 @@ main {
     margin-right: 2%;
     padding: 2%;
 }
+.sectionMitologia ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+img{
+    border-radius: 10px;
+} 
 .sectionMitologia div p{
     text-align: center;
     margin: 2%;
@@ -145,9 +143,7 @@ main {
     padding: 1% 2% 1% 2%;
     border-bottom: #CCC8AA double;
 }
-#hercules{
-    border-bottom: transparent;
-}
+
 .los12trabajos{
     display: flex;
     flex-flow:column nowrap;
@@ -159,6 +155,12 @@ main {
     margin: 1%;
     text-align: center;
 }
+.herculesh3{
+    margin: 3%;
+    font-size: 30px;
+    border: #CCC8AA outset 2px;
+    padding: 1% 1%;
+}
 #odisea{
     flex-flow: column wrap;
     border-bottom: transparent;
@@ -166,7 +168,7 @@ main {
 
 .historiaSection div a:hover {
     color:#F2E7D5;
-    font-size: 45px;
+    font-size: 35px;
     font-style: italic;
     background-color: #191717;
     border: #CCC8AA 2px outset;
@@ -215,11 +217,14 @@ main {
     border-bottom: #CCC8AA double 4px;
     margin-left: 2%;
     margin-right: 2%;
+    
 }
 #carouselGaleriaDioses div img {
     width: 600px;
     height: 700px;
     object-fit: contain;
+    margin-bottom: 2%;
+    border-radius: 10px;
 }
 #carouselGaleriaDioses h2{
     font-size: 40px;
@@ -245,36 +250,41 @@ main {
     width:400px ;
     height:600px ;
     object-fit: contain;
+    margin-bottom: 2%;
+    border-radius: 10px;
 }
 /*empieza la pagina de media*/
-.carouselMedia{
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
+.gridMedia{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 45px;
+    border-bottom: #CCC8AA double 5px;
+    padding: 1% 1%;
 }
- .carouselMedia iframe{
-    width: 1230px;
-    height: 615px;
-    padding-left: 2%;
-    padding-right: 2%;
- }
- .carouselMedia a{
-    font-size: 25px;
-    color: #F2E7D5;
- }
- .carouselMedia a:hover{
-    font-size: 45px;
-    color: #CCC8AA;
-    background-color: #191717;
-    border: #CCC8AA 2px outset
- }
-.tituloGames{
+.gridMedia iframe{
+    border: #CCC8AA outset 2px;
+    padding: 5px;
+}
+.gridMedia h3{
     font-size: 35px;
-    margin-top: 1%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: #CCC8AA outset;
+    text-align: center;
     background-color: #191717;
+    border: #CCC8AA 2px outset;
+    color: #F1EFEF;
+    padding: 5px;
+}
+.gridMedia a{
+    font-size: 25px;
+    color: #F1EFEF;
+}
+.gridMedia a:hover{
+    color:#F2E7D5;
+    font-style: italic;
+    background-color: #191717;
+    border: #CCC8AA 2px outset;
 }
 /* empieza la seccion de productos */
 .gridProductos{
@@ -288,12 +298,13 @@ main {
 }
 .gridProductos a{
     font-size: 25px;
-    color: #CCC8AA;
+    color: #F1EFEF;
 }
 .gridProductos a:hover{
-    font-size: 45px;
     background-color: #191717;
     border: #CCC8AA 2px outset;
+    color: #CCC8AA;
+    font-style: italic;
 }
 a:any-link{
   text-decoration-color:transparent;
