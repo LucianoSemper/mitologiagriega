@@ -1,0 +1,303 @@
+@import"variables";
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:$negro;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    font-family: "space grotesk" , sans-serif;
+        h1{
+            color: $blanco;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 10px;
+        }
+}
+.menu{
+        ul{
+            a{
+                color: $blanco;
+                font-size: 30px;
+                &:hover{
+                        color: $dorado;
+                    }
+            }
+        }
+    }
+main{
+    background-color: hsl(0,0%,14%);
+        h2{
+            font-family: "space grotesk" , sans-serif;
+            color: $blanco;
+            font-size: 30px;
+            font-style: italic;
+            text-align: center;
+            padding: 1%;
+    }
+        h3{
+            font-family: "space grotesk" , sans-serif;
+            color: $blanco;
+            font-size:25px;
+            font-style: italic;
+            text-align: center;
+            margin: 5px;
+        }
+        img{
+            border-radius: 10px;
+        }
+}
+p{
+    color: $dorado;
+    font-size: 25px;
+    text-align: center;
+    margin: $margen;
+    padding: 1%;
+}
+//seccion pagina inicio
+.sectionInicioPagina{
+    margin: $margen;
+    div{
+        text-align: center;
+        padding: 2%;
+    }
+}
+//seccion que es la mitologia
+.sectionMitologia{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    border-top:$borde;
+    padding: 2%;
+    margin: $margen;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        align-items: center;
+        li{
+            color: $blanco;
+            font-size: 20px;
+            margin-top: 1%;
+        }
+    }
+}
+//seccion pagina de historia
+.historiaSection{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: $margen;
+    padding: 2%;
+    border-bottom: $borde;
+}
+#urano{
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.historiaSection3img{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    border-bottom: $borde;
+    margin: $margen;
+    padding: 2%;
+}
+#hijosZeus{
+    flex-wrap: wrap;
+}
+.listaHistoria{
+    display: flex;
+    flex-flow: column nowrap;
+    color: $blanco;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    li{
+        margin: $margen;
+        list-style-type: lower-greek;
+    }
+}
+.historiaSectionGrid{
+    display: grid;
+    grid-template-columns: repeat(2 , 50%);
+    grid-template-rows: repeat(3 , 33,3%);
+    row-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: $borde;
+    margin: $margen;
+}
+.herculesh3{
+    margin: 2%;
+    font-size: 30px;
+    border: $borde-caja;
+    padding: 1% 1%;
+}
+#odisea{
+    flex-flow: column wrap;
+    border-bottom: transparent;
+}
+.historiaSection div a{
+    font-size: 30px;
+    text-align: center;
+    color: #F1EFEF;
+    &:hover{
+        color:#F2E7D5;
+        font-style: italic;
+        background-color: #191717;
+        border: $borde-caja;
+    }
+}
+//empieza pagina de galeria
+#carouselGaleriaDioses { 
+    h2{
+        font-size: 40px;
+    }
+    div{
+            img{ 
+                width: 600px;
+                height: 700px;
+                object-fit: contain;
+                margin-bottom: 2%;
+            }
+    } 
+    p{
+      border: $borde-caja;
+      background-color: $negro;
+    }
+}
+#carouselGaleriaHeroes{
+    h2{
+        font-size: 40px;
+    }
+    div{
+        img{
+            width:600px;
+            height: 700px;
+            object-fit: contain;
+            margin-bottom: 2%;
+        }
+    }
+    p{
+      border: $borde-caja;
+      background-color: $negro;
+    }
+}
+//empieza pagina de media
+.gridMedia{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 45px;
+    border-bottom: $borde;
+    padding: 1%;
+    iframe{
+        border: $borde-caja;
+        padding: 5px;
+    }
+    h3{
+        font-size: 35px;
+        text-align: center;
+        background-color: $negro;
+        border: $borde-caja;
+        color: $blanco;
+        padding: 5px;
+    }
+    a{
+        font-size: 25px;
+        text-align: start;
+        color: $blanco;
+        margin: 2%;
+        &:hover{
+            color: $dorado;
+            background-color: $negro;
+            border: $borde-caja;
+        }
+    }
+    .linkMedia{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+}
+//pagina de productos
+.gridProductos{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(5 , 1fr );
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    padding: 1%;
+    a{
+        font-size: 25px;
+        color: $blanco;
+        &:hover{
+            background-color: $negro;
+            border: $borde-caja;
+            color: $dorado;
+        }
+    }
+}
+//paginas externas
+.sectionExterna{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: $borde-caja;
+    padding: 2%;
+}
+//menu desplegable
+.btn{
+    background-color: $dorado;
+    color: $blanco;
+    border: $borde-caja;
+    &:hover{
+        color: $negro;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:active{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:focus{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:focus-within{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+}
+a:any-link{
+    text-decoration: transparent;
+}
+//footer
+footer {
+    background-color: $negro;
+    ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    }
+    li{
+        a{
+            color: $blanco;
+            font-size: 50px;
+        }
+    }
+}

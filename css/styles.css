@@ -1,361 +1,304 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-/* @media (max-width:600px){
-    header{
-        background-color: #CCC8AA;
-    }
-} */
- header {
-    background-color: #191717;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2%;
-    font-family: "space grotesk", sans-serif;
+
+header {
+  background-color: #191717;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  justify-content: space-between;
+  font-family: "space grotesk", sans-serif;
 }
-.menu ul li a {
-    color: #F1EFEF;
-    font-size: 30px;
+header h1 {
+  color: #F1EFEF;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
 }
-.menu ul li a:hover{
-    color: #CCC8AA;
+
+.menu ul a {
+  color: #F1EFEF;
+  font-size: 30px;
 }
-h1{
-    color:#F1EFEF;
-    font-size: 40px;
-    text-align:center;
-    padding-top: 10px;
+.menu ul a:hover {
+  color: #CCC8AA;
 }
 
 main {
-    background-color:hsl(0, 0%, 14%);
+  background-color: hsl(0, 0%, 14%);
 }
-/*pagina de Inicio*/
+main h2 {
+  font-family: "space grotesk", sans-serif;
+  color: #F1EFEF;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  padding: 1%;
+}
+main h3 {
+  font-family: "space grotesk", sans-serif;
+  color: #F1EFEF;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+}
+main img {
+  border-radius: 10px;
+}
 
-/*seccion sobre la pagina*/
-.sectionInicioPagina{
-    margin-left: 2%;
-    margin-right: 2%;
+p {
+  color: #CCC8AA;
+  font-size: 25px;
+  text-align: center;
+  margin: 0% 2% 0% 2%;
+  padding: 1%;
+}
+
+.sectionInicioPagina {
+  margin: 0% 2% 0% 2%;
 }
 .sectionInicioPagina div {
-    text-align: center;
-    padding: 2%;
-} 
-
-/*seccion que es la mitologia*/
-.sectionMitologia{
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    align-items: center;
-    border-top:#CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-}
-.sectionMitologia ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    align-items: center;
-}
-img{
-    border-radius: 10px;
-} 
-.sectionMitologia div p{
-    text-align: center;
-    margin: 2%;
-}
-.sectionMitologia div ul{
-    flex-flow: row wrap;
-    color: #F1EFEF;
-    justify-content: space-evenly;
-    font-size: 20px;
-} 
-/*termina la seccion de la pagina Inicio*/
-
-/*seccion de la pagina Historia*/
-
-.historiaSection{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-    border-bottom: #CCC8AA double;
-}
-.historiaSection p {
-    text-align: center;
-    padding: 1% 2% 1% 2%
-}
-#urano{
-    flex-flow: row wrap;
-    justify-content: center;
-}
-.historiaSection3img{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding:2%;
-}
-.historiaSection3img div p{
-    text-align: center;
-    padding-bottom: 2%;
-}
-#hijosZeus{
-    flex-wrap: wrap;
-}
-.listaHijosZeus{
-    display: flex;
-    flex-flow: column nowrap;
-    color:#F1EFEF;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-}
-.listaHijosZeus li{
-    margin:5px;
-    padding-left: 1%;
-    list-style-type:lower-greek;
+  text-align: center;
+  padding: 2%;
 }
 
-.historiaSectionGrid{
-    display: grid;
-    grid-template-columns:repeat(2 , 50%);
-    grid-template-rows:repeat(3 , 33,3%) ;
-    row-gap: 30px;
-    align-items: center;
-    justify-items: center;
-    border-bottom: #CCC8AA double;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1% 2% 1% 2%;
+.sectionMitologia {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-items: center;
+  border-top: #CCC8AA double 3px;
+  padding: 2%;
+  margin: 0% 2% 0% 2%;
 }
-.historiaSectionGrid p {
-    text-align: center;
-    padding: 1% 2% 1% 2%;
-    border-bottom: #CCC8AA double;
+.sectionMitologia ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
 }
-
-.los12trabajos{
-    display: flex;
-    flex-flow:column nowrap;
-    color: #F1EFEF;
-    font-size: 20px;
-    list-style-type: lower-greek;
-}
-.los12trabajos li{
-    margin: 1%;
-    text-align: center;
-}
-.herculesh3{
-    margin: 3%;
-    font-size: 30px;
-    border: #CCC8AA outset 2px;
-    padding: 1% 1%;
-}
-#odisea{
-    flex-flow: column wrap;
-    border-bottom: transparent;
+.sectionMitologia ul li {
+  color: #F1EFEF;
+  font-size: 20px;
+  margin-top: 1%;
 }
 
+.historiaSection {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0% 2% 0% 2%;
+  padding: 2%;
+  border-bottom: #CCC8AA double 3px;
+}
+
+#urano {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.historiaSection3img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border-bottom: #CCC8AA double 3px;
+  margin: 0% 2% 0% 2%;
+  padding: 2%;
+}
+
+#hijosZeus {
+  flex-wrap: wrap;
+}
+
+.listaHistoria {
+  display: flex;
+  flex-flow: column nowrap;
+  color: #F1EFEF;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+}
+.listaHistoria li {
+  margin: 0% 2% 0% 2%;
+  list-style-type: lower-greek;
+}
+
+.historiaSectionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 33, 3%);
+  row-gap: 30px;
+  align-items: center;
+  justify-items: center;
+  border-bottom: #CCC8AA double 3px;
+  margin: 0% 2% 0% 2%;
+}
+
+.herculesh3 {
+  margin: 2%;
+  font-size: 30px;
+  border: #CCC8AA outset 2px;
+  padding: 1% 1%;
+}
+
+#odisea {
+  flex-flow: column wrap;
+  border-bottom: transparent;
+}
+
+.historiaSection div a {
+  font-size: 30px;
+  text-align: center;
+  color: #F1EFEF;
+}
 .historiaSection div a:hover {
-    color:#F2E7D5;
-    font-size: 35px;
-    font-style: italic;
-    background-color: #191717;
-    border: #CCC8AA 2px outset;
+  color: #F2E7D5;
+  font-style: italic;
+  background-color: #191717;
+  border: #CCC8AA outset 2px;
 }
 
-.historiaSection div a{
-    font-size: 30px;
-    text-align: center;
-    color: #F1EFEF;
-}
-
-/* empieza pagina de galeria */
-#carouselGaleriaDioses{
-    border-bottom: #CCC8AA double 4px;
-    margin-left: 2%;
-    margin-right: 2%;
-    
+#carouselGaleriaDioses h2 {
+  font-size: 40px;
 }
 #carouselGaleriaDioses div img {
-    width: 600px;
-    height: 700px;
-    object-fit: contain;
-    margin-bottom: 2%;
-    border-radius: 10px;
+  width: 600px;
+  height: 700px;
+  object-fit: contain;
+  margin-bottom: 2%;
 }
-#carouselGaleriaDioses h2{
-    font-size: 40px;
+#carouselGaleriaDioses p {
+  border: #CCC8AA outset 2px;
+  background-color: #191717;
 }
-#carouselGaleriaDioses p:hover{
-    font-size: 35px;
+
+#carouselGaleriaHeroes h2 {
+  font-size: 40px;
 }
-.carousel-item p{
-    text-align: center;
-    padding: 1%;
-    background-color: #191717;
-    border: #CCC8AA 4px outset;
+#carouselGaleriaHeroes div img {
+  width: 600px;
+  height: 700px;
+  object-fit: contain;
+  margin-bottom: 2%;
 }
-#carouselGaleriaHeroes{
-    border-bottom: #CCC8AA double 4px;
-    margin-left: 2%;
-    margin-right: 2%;
+#carouselGaleriaHeroes p {
+  border: #CCC8AA outset 2px;
+  background-color: #191717;
 }
-#carouselGaleriaHeroes p:hover{
-    font-size: 35px;
+
+.gridMedia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  row-gap: 45px;
+  border-bottom: #CCC8AA double 3px;
+  padding: 1%;
 }
-#carouselGaleriaHeroes div img{
-    width:400px ;
-    height:600px ;
-    object-fit: contain;
-    margin-bottom: 2%;
-    border-radius: 10px;
+.gridMedia iframe {
+  border: #CCC8AA outset 2px;
+  padding: 5px;
 }
-/*empieza la pagina de media*/
-.gridMedia{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(3 , 1fr);
-    align-items: center;
-    justify-items: center;
-    row-gap: 45px;
-    border-bottom: #CCC8AA double 5px;
-    padding: 1% 1%;
+.gridMedia h3 {
+  font-size: 35px;
+  text-align: center;
+  background-color: #191717;
+  border: #CCC8AA outset 2px;
+  color: #F1EFEF;
+  padding: 5px;
 }
-.gridMedia iframe{
-    border: #CCC8AA outset 2px;
-    padding: 5px;
+.gridMedia a {
+  font-size: 25px;
+  text-align: start;
+  color: #F1EFEF;
+  margin: 2%;
 }
-.gridMedia h3{
-    font-size: 35px;
-    text-align: center;
-    background-color: #191717;
-    border: #CCC8AA 2px outset;
-    color: #F1EFEF;
-    padding: 5px;
+.gridMedia a:hover {
+  color: #CCC8AA;
+  background-color: #191717;
+  border: #CCC8AA outset 2px;
 }
-.gridMedia a{
-    font-size: 25px;
-    color: #F1EFEF;
+.gridMedia .linkMedia {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
-.gridMedia a:hover{
-    color:#F2E7D5;
-    font-style: italic;
-    background-color: #191717;
-    border: #CCC8AA 2px outset;
+
+.gridProductos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  row-gap: 30px;
+  padding: 1%;
 }
-/* empieza la seccion de productos */
-.gridProductos{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(5 , 1fr);
-    align-items: center;
-    justify-items: center;
-    row-gap: 30px;
-    padding: 1%;
+.gridProductos a {
+  font-size: 25px;
+  color: #F1EFEF;
 }
-.gridProductos a{
-    font-size: 25px;
-    color: #F1EFEF;
+.gridProductos a:hover {
+  background-color: #191717;
+  border: #CCC8AA outset 2px;
+  color: #CCC8AA;
 }
-.gridProductos a:hover{
-    background-color: #191717;
-    border: #CCC8AA 2px outset;
-    color: #CCC8AA;
-    font-style: italic;
+
+.sectionExterna {
+  text-align: justify;
+  margin-left: 4%;
+  margin-right: 4%;
+  border: #CCC8AA outset 2px;
+  padding: 2%;
 }
-/* externas */
-.sectionExterna{
-    text-align: justify;
-    margin-left: 4%;
-    margin-right: 4%;
-    border: #CCC8AA outset 2px;
-    padding: 2%;
+
+.btn {
+  background-color: #CCC8AA;
+  color: #F1EFEF;
+  border: #CCC8AA outset 2px;
 }
-/* menu desplegable*/
-.btn{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
+.btn:hover {
+  color: #191717;
+  background-color: #CCC8AA;
+  border: #CCC8AA outset 2px;
 }
-.btn:hover{
-    color: #191717;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-} 
- .btn:active{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-} 
-.btn:focus{
-    color: #F1EFEF;
-    background-color: #CCC8AA;
-    border: #CCC8AA inset 5px;
-} 
-.btn:focus-within{
-    color: #F1EFEF;
-    background-color:#CCC8AA ;
-    border: #CCC8AA inset 5px;
+.btn:active {
+  color: #F1EFEF;
+  background-color: #CCC8AA;
+  border: #CCC8AA outset 2px;
 }
-a:any-link{
-  text-decoration-color:transparent;
+.btn:focus {
+  color: #F1EFEF;
+  background-color: #CCC8AA;
+  border: #CCC8AA outset 2px;
 }
-h2{
-    font-family: "space grotesk", sans-serif;
-    color:  #F1EFEF;
-    font-size: 30px;
-    font-style: italic;
-    text-align: center;
-    padding: 1%;
+.btn:focus-within {
+  color: #F1EFEF;
+  background-color: #CCC8AA;
+  border: #CCC8AA outset 2px;
 }
-h3{
-    font-family:"space grotesk", sans-serif;
-    color:  #F1EFEF;
-    text-align: center;
-    margin: 5px;
-    font-size: 25px;
-    font-style:italic;
+
+a:any-link {
+  text-decoration: transparent;
 }
-p {
-    color:#CCC8AA;
-    font-size: 25px;
-    text-align: center;
+
+footer {
+  background-color: #191717;
 }
 footer ul {
-    background-color: #191717;
-    display: flex;
-    flex-flow: row nowrap;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80px;
-    padding-top: 1%;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
 }
-footer ul li a {
-    color:#F1EFEF;
-    font-size: 50px;
+footer li a {
+  color: #F1EFEF;
+  font-size: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
