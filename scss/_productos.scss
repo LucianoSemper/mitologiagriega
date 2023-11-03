@@ -1,0 +1,23 @@
+//pagina de productos
+.gridProductos{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(5 , 1fr );
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    padding: 1%;
+    a{
+        font-size: 25px;
+        color: $blanco;
+         &:hover{
+             color: $dorado;
+         }
+    }
+}
+@media (max-width:$mobile){
+    .gridProductos{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}

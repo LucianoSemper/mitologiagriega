@@ -1,0 +1,85 @@
+//pagina de historia
+.historiaSection{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: $margen;
+    padding: 2%;
+    border-bottom: $borde;
+}
+#urano{
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.historiaSection3img{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    border-bottom: $borde;
+    margin: $margen;
+    padding: 2%;
+}
+#hijosZeus{
+    flex-wrap: wrap;
+}
+.listaHistoria{
+    display: flex;
+    flex-flow: column nowrap;
+    color: $blanco;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    li{
+        margin: $margen;
+        list-style-type: lower-greek;
+    }
+}
+.historiaSectionGrid{
+    display: grid;
+    grid-template-columns: repeat(2 , 50%);
+    grid-template-rows: repeat(3 , 33,3%);
+    row-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: $borde;
+    margin: $margen;
+}
+.herculesh3{
+    margin: 2%;
+    font-size: 30px;
+    border: $borde-caja;
+    padding: 1% 1%;
+}
+#odisea{
+    flex-flow: column wrap;
+    border-bottom: transparent;
+}
+.historiaSection div a{
+    font-size: 30px;
+    text-align: center;
+    color: #F1EFEF;
+    &:hover{
+        color:#F2E7D5;
+        font-style: italic;
+        background-color: #191717;
+        border: $borde-caja;
+    }
+}
+@media (max-width:$mobile){
+    .historiaSection{
+        flex-flow: column nowrap;
+        img{
+            width: 100%;
+        }
+    }
+    .historiaSection3img{
+        flex-flow: column nowrap;
+        img{
+            width: 100%;
+        }
+    }
+    .historiaSectionGrid{
+        display: flex;
+        flex-direction: column;
+    }
+}

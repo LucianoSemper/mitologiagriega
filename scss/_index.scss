@@ -1,0 +1,31 @@
+//pagina inicio
+.sectionInicioPagina{
+    margin: $margen;
+    div{
+        text-align: center;
+        padding: 2%;
+    }
+}
+.sectionMitologia{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    border-top:$borde;
+    padding: 2%;
+    margin: $margen;
+        .listaDioses{
+            font-size: 20px;
+            color: $blanco;
+        }
+}
+@media (max-width:$mobile){
+    //inicio
+.sectionMitologia{
+    flex-flow: column nowrap;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+}
+

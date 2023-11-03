@@ -1,0 +1,42 @@
+//paginas externas
+.sectionExterna{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: $borde-caja;
+    padding: 2%;
+}
+//menu desplegable
+.btn{
+    background-color: $dorado;
+    color: $blanco;
+    border: $borde-caja;
+    &:hover{
+        color: $negro;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:active{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:focus{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+    &:focus-within{
+        color: $blanco;
+        background-color: $dorado;
+        border: $borde-caja;
+    }
+}
+a:any-link{
+    text-decoration: transparent;
+}
+@media(max-width:500px){
+    p{
+        font-size:large;
+    }
+}

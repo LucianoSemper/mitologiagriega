@@ -1,0 +1,54 @@
+//pagina de galeria
+#carouselGaleriaDioses { 
+    h2{
+        font-size: 40px;
+    }
+    div{
+            img{ 
+                width: 600px;
+                height: 700px;
+                object-fit: contain;
+                margin-bottom: 2%;
+            }
+    } 
+    p{
+      border: $borde-caja;
+      background-color: $negro;
+    }
+}
+#carouselGaleriaHeroes{
+    h2{
+        font-size: 40px;
+    }
+    div{
+        img{
+            width:600px;
+            height: 700px;
+            object-fit: contain;
+            margin-bottom: 2%;
+        }
+    }
+    p{
+      border: $borde-caja;
+      background-color: $negro;
+    }
+}
+@media(max-width:$mobile){
+    #carouselGaleriaDioses{
+        div{
+            img{
+                height:100%;
+                width: 100%;
+            }
+        }
+        
+    }
+    #carouselGaleriaHeroes{
+        div{
+            img{
+                height:100%;
+                width: 100%;
+            }
+        }
+    }
+}
