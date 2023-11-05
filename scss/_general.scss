@@ -25,6 +25,16 @@ header{
             }
         }
     }
+.navbar-toggler{
+        background-color:$negro;
+        border: solid $negro 2px;
+        margin-top: 8%;
+   }
+.navbar-toggler-icon {
+       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241,239,239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+       border: solid 1px $blanco;
+       border-radius: 14%;
+   }
 //main
 main{
     background-color: hsl(0,0%,14%);
@@ -64,11 +74,19 @@ footer {
         list-style-type: none;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 0rem;
     }
     li{
+        padding-top: 10px;
         a{
             color: $blanco;
             font-size: 50px;
         }
+    }
+}
+@media(max-width:500px){
+    p{
+        font-size:large;
+        text-align: justify;
     }
 }

@@ -74,6 +74,9 @@
     }
     .historiaSection3img{
         flex-flow: column nowrap;
+        div{
+            margin-bottom: 2%;
+        }
         img{
             width: 100%;
         }
@@ -81,5 +84,11 @@
     .historiaSectionGrid{
         display: flex;
         flex-direction: column;
+        img{
+            width:100%;
+        }
+    }
+    .historiaSection div a{
+        font-size: 25px;
     }
 }

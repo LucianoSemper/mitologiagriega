@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.btn:focus, .btn:hover, .btn:disabled, .btn:enabled, .btn:active {
+  color: #CCC8AA;
+  background-color: #191717;
+}
+
 header {
   background: linear-gradient(90deg, rgb(25, 23, 23) 79%, rgb(125, 124, 124) 100%);
   display: flex;
@@ -24,6 +29,18 @@ header h1 {
 }
 .menu ul a:hover {
   color: #CCC8AA;
+}
+
+.navbar-toggler {
+  background-color: #191717;
+  border: solid #191717 2px;
+  margin-top: 8%;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241,239,239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border: solid 1px #F1EFEF;
+  border-radius: 14%;
 }
 
 main {
@@ -66,12 +83,22 @@ footer ul {
   list-style-type: none;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 0rem;
+}
+footer li {
+  padding-top: 10px;
 }
 footer li a {
   color: #F1EFEF;
   font-size: 50px;
 }
 
+@media (max-width: 500px) {
+  p {
+    font-size: large;
+    text-align: justify;
+  }
+}
 .sectionInicioPagina {
   margin: 0% 2% 0% 2%;
 }
@@ -99,7 +126,6 @@ footer li a {
   }
   .sectionMitologia img {
     width: 100%;
-    height: 100%;
   }
 }
 .historiaSection {
@@ -187,12 +213,21 @@ footer li a {
   .historiaSection3img {
     flex-flow: column nowrap;
   }
+  .historiaSection3img div {
+    margin-bottom: 2%;
+  }
   .historiaSection3img img {
     width: 100%;
   }
   .historiaSectionGrid {
     display: flex;
     flex-direction: column;
+  }
+  .historiaSectionGrid img {
+    width: 100%;
+  }
+  .historiaSection div a {
+    font-size: 25px;
   }
 }
 #carouselGaleriaDioses h2 {
@@ -298,11 +333,20 @@ footer li a {
 .gridProductos a:hover {
   color: #CCC8AA;
 }
+.gridProductos div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 2%;
+}
 
-@media (max-width: 1200px) {
+@media (max-width: 700px) {
   .gridProductos {
     display: flex;
     flex-flow: column nowrap;
+  }
+  .gridProductos img {
+    width: 100%;
   }
 }
 .sectionExterna {
@@ -314,39 +358,12 @@ footer li a {
 }
 
 .btn {
-  background-color: #CCC8AA;
+  background-color: #191717;
   color: #F1EFEF;
-  border: #CCC8AA outset 2px;
+  border: transparent;
 }
-.btn:hover {
-  color: #191717;
-  background-color: #CCC8AA;
-  border: #CCC8AA outset 2px;
-}
-.btn:active {
-  color: #F1EFEF;
-  background-color: #CCC8AA;
-  border: #CCC8AA outset 2px;
-}
-.btn:focus {
-  color: #F1EFEF;
-  background-color: #CCC8AA;
-  border: #CCC8AA outset 2px;
-}
-.btn:focus-within {
-  color: #F1EFEF;
-  background-color: #CCC8AA;
-  border: #CCC8AA outset 2px;
-}
-
 a:any-link {
   text-decoration: transparent;
-}
-
-@media (max-width: 500px) {
-  p {
-    font-size: large;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

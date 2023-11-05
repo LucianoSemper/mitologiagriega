@@ -8,35 +8,26 @@
 }
 //menu desplegable
 .btn{
-    background-color: $dorado;
+    background-color: $negro;
     color: $blanco;
-    border: $borde-caja;
-    &:hover{
-        color: $negro;
-        background-color: $dorado;
-        border: $borde-caja;
-    }
+    border: transparent;
     &:active{
-        color: $blanco;
-        background-color: $dorado;
-        border: $borde-caja;
+        @extend %bordebtn;
+    }
+    &:enabled{
+        @extend %bordebtn;
+    }
+    &:disabled{
+        @extend %bordebtn;
+    }
+    &:hover{
+        @extend %bordebtn; 
     }
     &:focus{
-        color: $blanco;
-        background-color: $dorado;
-        border: $borde-caja;
+        @extend %bordebtn;
     }
-    &:focus-within{
-        color: $blanco;
-        background-color: $dorado;
-        border: $borde-caja;
-    }
+    
 }
 a:any-link{
     text-decoration: transparent;
-}
-@media(max-width:500px){
-    p{
-        font-size:large;
-    }
 }
