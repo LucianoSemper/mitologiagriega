@@ -327,11 +327,15 @@ footer li a {
   padding: 1%;
 }
 .gridProductos a {
+  background-color: #191717;
+  padding: 2px 25px;
+  border-radius: 15px;
   font-size: 25px;
   color: #F1EFEF;
 }
 .gridProductos a:hover {
   color: #CCC8AA;
+  box-shadow: 2px 2px 10px #CCC8AA;
 }
 .gridProductos div {
   display: flex;

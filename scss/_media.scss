@@ -25,7 +25,7 @@
         text-align: start;
         color: $blanco;
         margin: 2%;
-        &:hover{
+        &:hover{ 
             color: $dorado;
             background-color: $negro;
             border: $borde-caja;
@@ -44,7 +44,6 @@
         iframe{
             width:100%;
             height: 100%;
-
         }
     }
 }

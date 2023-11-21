@@ -8,10 +8,14 @@
     row-gap: 30px;
     padding: 1%;
     a{
+        background-color: $negro;
+        padding: 2px 25px;
+        border-radius: 15px;
         font-size: 25px;
         color: $blanco;
          &:hover{
              color: $dorado;
+             box-shadow: 2px 2px 10px $dorado;
          }
     }
     div{
