@@ -21,6 +21,8 @@ header{
                 font-size: 30px;
                 &:hover{
                         color: $dorado;
+                        box-shadow: 2px 2px 10px $dorado;
+                        border-radius: 10px;
                     }
             }
         }
